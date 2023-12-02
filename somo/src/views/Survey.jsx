@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import ReactPlayer from "react-player";
 
 
+
 export default function Surveys() {
   const { showToast } = useStateContext();
   const [surveys, setSurveys] = useState([]);
@@ -64,8 +65,8 @@ const youtubeLink = ''
                 <div className="aspect-w">
                   <ReactPlayer
                   url={survey.youtubeLink}
-                  width="100%"
-                  height="400px"
+                 width="100%"
+                 height="400px"
                   controls={true}
                   />
           </div> 

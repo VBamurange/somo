@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
 
+
 const CareerGuidance = () => {
     const successfulPeople = [
         {
@@ -64,6 +65,7 @@ const CareerGuidance = () => {
 
           )}
         </div>
+        
     );
 };
 
