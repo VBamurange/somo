@@ -1,0 +1,12 @@
+{
+  "name": "somo",
+  "version": "1.0.0",
+  "description": "SOMO\r Somo is a public education platform that allows you to access education information in the easiest way possible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
