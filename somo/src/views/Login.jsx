@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import axiosClient from "../axios";
 import { useStateContext } from "../contexts/ContextProvider";
+import '../index.css';
 
 export default function Login() {
   const { setCurrentUser, setUserToken } = useStateContext();
